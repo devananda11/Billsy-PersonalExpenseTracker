@@ -6,7 +6,7 @@ import {getAuth,GoogleAuthProvider} from "firebase/auth";
 import {getFirestore,doc,setDoc} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDu3UNbPSFq07vjQ6oM2iSb8JmmkMt1ec0",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "billsy-1d62d.firebaseapp.com",
   projectId: "billsy-1d62d",
   storageBucket: "billsy-1d62d.appspot.com",
